@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Me"
+  },
+  "text": {
+    "more": "На графике представлена группировка моих друзей в вк не просто по месту их обучения либо работы, но и потому, кто у кого есть у в друзьях. То есть, например, ораньжевым обозначены те, кто учился со мной в школе. Филотовым и зеленым - те, кто учится со мной в университете. Но поделены они на два цвета по той причине, что кого-то нет у кого-то в друзьях. Синим также обозначабются люди,которые учатся на моем факультете, но выделены они другим цветом, либо потому что у них не указано место обучения, либо потому что их нет ни у кого в друзьях.",
+    "intro": "График моих друзей в вк",
+    "title": "VK Graph"
+  },
+  "legend": {
+    "edgeLabel": "Знакомство",
+    "colorLabel": "Сообщество",
+    "nodeLabel": "Человек"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
